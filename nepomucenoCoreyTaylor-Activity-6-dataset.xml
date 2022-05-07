@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE new-message [
+	<!ELEMENT new-message (receiver)>
+	<!ELEMENT reciever (name, bq-project, bq-dataset, bq-table, program, category, source, data-Type, status, rows)>
+
+	<!ELEMENT receiver (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT bq-project (#PCDATA)>
+	<!ELEMENT bq-dataset (#PCDATA)>
+	<!ELEMENT bq-table (#PCDATA)>
+	<!ELEMENT program (#PCDATA)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT source (#PCDATA)>
+	<!ELEMENT data-Type (#PCDATA)>
+	<!ELEMENT status (#PCDATA)>
+	<!ELEMENT rows (#PCDATA)>
+
+]>
+<new-message>
+	<receiver>
+		<name> THE ALLIANCE YEAST TO HUMAN MAPPING R3_0_1 VERSIONED </name>
+		<bq-project> isb-cgc-bq </bq-project>
+		<bq-dataset> annotations_versioned </bq-dataset>
+		<bq-table> Yeast2Human_mapping_Alliance_for_Genome_Resources_R3_0_1 </bq-table>
+		<program> N/A </program>
+		<category> REFERENCE DATABASE </category>
+		<source> LITERATURE </source>
+		<data-type> GENOME ANNOTATION </data-type>
+		<status> CURRENT </status>
+		<rows> 6,124 </rows>
+	</receiver>
+
+	<receiver>
+		<name> THE ALLIANCE YEAST TO HUMAN MAPPING </name>
+		<bq-project> isb-cgc-bq </bq-project>
+		<bq-dataset> annotations </bq-dataset>
+		<bq-table> Yeast2Human_mapping_Alliance_for_Genome_Resources_current </bq-table>
+		<program> N/A </program>
+		<category> REFERENCE DATABASE </category>
+		<source> LITERATURE </source>
+		<data-type> GENOME ANNOTATION </data-type>
+		<status> CURRENT </status>
+		<rows> 6,124 </rows>
+	</receiver>
+
+	<receiver>
+		<name> PANCANCER PARTICIPANTS WHITELIST </name>
+		<bq-project> isb-cgc-bq </bq-project>
+		<bq-dataset> pancancer_atlas </bq-dataset>
+		<bq-table> Whitelist_ParticipantBarcodes </bq-table>
+		<program> PANCANCER ATLAS </program>
+		<category> CLINICAL BIOSPECIMEN DATA </category>
+		<source> GDC, LITERATURE </source>
+		<data-type> BIOSPECIMEN SUPPLEMENT </data-type>
+		<status> CURRENT </status>
+		<rows> 11,082 </rows>
+	</receiver>
+
+	<receiver>
+		<name> DEPMAP DEMETER2 GENE COPY NUMBER V6 VERSIONED </name>
+		<bq-project> isb-cgc-bq </bq-project>
+		<bq-dataset> DEPMAP_versioned </bq-dataset>
+		<bq-table> WES_SNP_CN_DEMETER2_v6 </bq-table>
+		<program> N/A </program>
+		<category> PROCESSED -OMICS DATA </category>
+		<source> DEPMAP </source>
+		<data-type> COPY NUMBER SEGMENT </data-type>
+		<status> CURRENT </status>
+		<rows> 14,821,300	
+ </rows>
+	</receiver>
+
+</new-message>
