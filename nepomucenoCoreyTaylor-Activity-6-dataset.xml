@@ -66,8 +66,85 @@
 		<source> DEPMAP </source>
 		<data-type> COPY NUMBER SEGMENT </data-type>
 		<status> CURRENT </status>
-		<rows> 14,821,300	
- </rows>
+		<rows> 14,821,300 </rows>
+	</receiver>
+
+	<receiver>
+		<name> DEPMAP DEMETER2 GENE COPY NUMBER </name>
+		<bq-project> isb-cgc-bq </bq-project>
+		<bq-dataset> DEPMAP </bq-dataset>
+		<bq-table> WES_SNP_CN_DEMETER2_current </bq-table>
+		<program> N/A </program>
+		<category> PROCESSED -OMICS DATA </category>
+		<source> DEPMAP </source>
+		<data-type> COPY NUMBER SEGMENT </data-type>
+		<status> CURRENT </status>
+		<rows> 14,821,300 </rows>
+	</receiver>
+
+	<receiver>
+		<name> PUNIPROTKB MAPPING </name>
+		<bq-project> isb-cgc-bq </bq-project>
+		<bq-dataset> genome_reference </bq-dataset>
+		<bq-table> UniProtKB_idmapping </bq-table>
+		<program> N/A </program>
+		<category> REFERENCE DATABASE </category>
+		<source> UNIPROT </source>
+		<data-type> PROTEIN ANNOTATIONS </data-type>
+		<status> CURRENT </status>
+		<rows> 5,304,571 </rows>
+	</receiver>
+
+	<receiver>
+		<name> TCIA STUDIES </name>
+		<bq-project> isb-cgc-bq </bq-project>
+		<bq-dataset> metadata </bq-dataset>
+		<bq-table> TCIA_studies </bq-table>
+		<program> N/A </program>
+		<category> FILE METADATA </category>
+		<source> TCIA </source>
+		<data-type> FILE METADATA </data-type>
+		<status> CURRENT </status>
+		<rows> 15,315 </rows>
+	</receiver>
+
+	<receiver>
+		<name> TCIA SERIES </name>
+		<bq-project> isb-cgc-bq </bq-project>
+		<bq-dataset> metadata </bq-dataset>
+		<bq-table> TCIA_series </bq-table>
+		<program> N/A </program>
+		<category> FILE METADATA </category>
+		<source> TCIA </source>
+		<data-type> FILE METADATA </data-type>
+		<status> CURRENT </status>
+		<rows> 89,016 </rows>
+	</receiver>
+
+	<receiver>
+		<name> TCGA-OV ITRAQ PNNL PROTEOME QUANTITATION REPORT </name>
+		<bq-project> isb-cgc-bq </bq-project>
+		<bq-dataset> hg19_data_previews </bq-dataset>
+		<bq-table> TCGA_Ovarian_PNNL_Proteome_CDAP_r2_itraq </bq-table>
+		<program> CPTAC2, TCGA </program>
+		<category> PROCESSED -OMICS DATA </category>
+		<source> LITERATURE </source>
+		<data-type> PROTEIN EXPRESSION </data-type>
+		<status> CURRENT </status>
+		<rows> 500,239 </rows>
+	</receiver>
+
+	<receiver>
+		<name> TCGA-OV ITRAQ JHU PROTEOME QUANTITATION REPORT </name>
+		<bq-project> isb-cgc-bq </bq-project>
+		<bq-dataset> hg19_data_previews </bq-dataset>
+		<bq-table> TCGA_Ovarian_JHU_Proteome_CDAP_r2_itraq </bq-table>
+		<program> CPTAC2, TCGA </program>
+		<category> PROCESSED -OMICS DATA </category>
+		<source> LITERATURE </source>
+		<data-type> PROTEIN EXPRESSION </data-type>
+		<status> CURRENT </status>
+		<rows> 947,385 </rows>
 	</receiver>
 
 </new-message>
